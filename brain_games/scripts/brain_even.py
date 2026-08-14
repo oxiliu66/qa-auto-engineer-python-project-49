@@ -10,9 +10,10 @@ while i < 3:
         answer += 'yes'
     else:
         answer += 'no'
-    ask_num = prompt.string('Question: ' + str(rundom_num))
-    if ask_num == answer:
+    ask_num = print('Question: ' + str(rundom_num))
+    answer_number = prompt.string('Your answer: ')
+    if answer_number == answer:
         print('Correct!')
     else:
-        print(f'{ask_num} is wrong answer ;(. Correct answer was {answer}')
+        print(f'{answer_number} is wrong answer ;(. Correct answer was {answer}')
     i+=1
