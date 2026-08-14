@@ -18,5 +18,3 @@ def even_or_odd():
         else:
             print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'")
         i+=1
-
-even_or_odd()
