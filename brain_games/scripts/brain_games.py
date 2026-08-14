@@ -1,12 +1,11 @@
 from brain_games import cli
 
-from . import brain_even
-
-
-def main():
+def greet():
     print("Welcome to the Brain Games!")
     cli.welcome_user()
-    brain_even.even_or_odd()
+
+def main():
+    greet()
 
 
 if __name__ == "__main__":

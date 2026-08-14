@@ -2,8 +2,10 @@ import random
 
 import prompt
 
+from . import brain_games
 
 def even_or_odd():
+    brain_games.greet()
     i = 0
     print('Answer "yes" if the number is even, otherwise answer "no".')
     while i < 3:
@@ -20,3 +22,8 @@ def even_or_odd():
         else:
             print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'")
         i += 1
+def main():
+    even_or_odd()
+
+if __name__ == "__main__":
+    main()
