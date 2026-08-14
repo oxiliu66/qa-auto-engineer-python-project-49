@@ -16,5 +16,7 @@ def even_or_odd():
         if answer_number == answer:
             print('Correct!')
         else:
-            print(f'{answer_number} is wrong answer ;(. Correct answer was {answer}')
+            print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'")
         i+=1
+
+even_or_odd()
