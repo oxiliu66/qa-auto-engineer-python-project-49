@@ -1,5 +1,7 @@
 import random
+
 import prompt
+
 
 def even_or_odd():
     i = 0
@@ -17,4 +19,4 @@ def even_or_odd():
             print('Correct!')
         else:
             print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'")
-        i+=1
+        i += 1

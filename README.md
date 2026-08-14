@@ -2,3 +2,5 @@
 [![Actions Status](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions)
 
 [![hexlet-check](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml)
+
+[![asciicast](https://asciinema.org/a/a3HJHaPt6E3TTt5G.svg)](https://asciinema.org/a/a3HJHaPt6E3TTt5G)
