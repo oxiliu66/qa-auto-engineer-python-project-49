@@ -5,7 +5,7 @@ import prompt
 from . import brain_games
 
 def even_or_odd():
-    brain_games.greet()
+    name = brain_games.greet()
     i = 0
     print('Answer "yes" if the number is even, otherwise answer "no".')
     while i < 3:
@@ -20,7 +20,8 @@ def even_or_odd():
         if answer_number == answer:
             print('Correct!')
         else:
-            print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'")
+            print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'\nLet's try again, {name}!")
+            break
         i += 1
 def main():
     even_or_odd()
