@@ -4,7 +4,7 @@
 [![hexlet-check](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml)
 
 BRAIN-EVEN:
-[![asciicast](https://asciinema.org/a/B31XIn9GPO4IUA8D.svg)](https://asciinema.org/a/B31XIn9GPO4IUA8D)
+[![asciicast](https://asciinema.org/a/PyHVlyFSqqGBjJHW.svg)](https://asciinema.org/a/PyHVlyFSqqGBjJHW)
 
 BRAIN-CALC:
-[![asciicast](https://asciinema.org/a/rQSPkLeRq4JtNkKf.svg)](https://asciinema.org/a/rQSPkLeRq4JtNkKf)
+[![asciicast](https://asciinema.org/a/AZbiC1rtJbQfKhvX.svg)](https://asciinema.org/a/AZbiC1rtJbQfKhvX)
