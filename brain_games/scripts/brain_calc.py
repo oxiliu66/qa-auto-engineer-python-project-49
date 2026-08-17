@@ -1,6 +1,9 @@
-from . import brain_games
-import prompt
 import random
+
+import prompt
+
+from . import brain_games
+
 
 def run_calc():
     name = brain_games.greet()
@@ -26,11 +29,14 @@ def run_calc():
             if i == 3:
                 print(f'Congratulations, {name}!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'\nLet's try again, {name}!")
+            print(f"'{answer}' is wrong answer ;(. Correct "
+                  f"answer was '{result}'\nLet's try again, {name}!")
             break
+
 
 def main():
     run_calc()
+
 
 if __name__ == '__main__':
     main()
