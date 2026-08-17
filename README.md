@@ -3,4 +3,8 @@
 
 [![hexlet-check](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml)
 
-[![asciicast](https://asciinema.org/a/Oj1V8IsueSvtLtVC.svg)](https://asciinema.org/a/Oj1V8IsueSvtLtVC)
+BRAIN-EVEN:
+[![asciicast](https://asciinema.org/a/B31XIn9GPO4IUA8D.svg)](https://asciinema.org/a/B31XIn9GPO4IUA8D)
+
+BRAIN-CALC:
+[![asciicast](https://asciinema.org/a/rQSPkLeRq4JtNkKf.svg)](https://asciinema.org/a/rQSPkLeRq4JtNkKf)
