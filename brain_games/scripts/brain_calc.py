@@ -2,7 +2,7 @@ from . import brain_games
 import prompt
 import random
 
-def calc():
+def run_calc():
     name = brain_games.greet()
     print('What is the result of the expression?')
     i = 0
@@ -11,7 +11,7 @@ def calc():
         number2 = random.randint(1, 100)
         expressions = ['+', '-', '*']
         expression = random.choice(expressions)
-        question = print(f'Question: {number1} {expression} {number2}')
+        print(f'Question: {number1} {expression} {number2}')
         result = 0
         if expression == '+':
             result = number1 + number2
@@ -23,12 +23,14 @@ def calc():
         if answer == str(result):
             print('Correct!')
             i += 1
+            if i == 3:
+                print(f'Congratulations, {name}!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'\nLet's try again, {name}!")
             break
 
 def main():
-    calc()
+    run_calc()
 
 if __name__ == '__main__':
     main()

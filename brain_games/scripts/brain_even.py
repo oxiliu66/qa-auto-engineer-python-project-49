@@ -19,10 +19,13 @@ def even_or_odd():
         answer_number = prompt.string('Your answer: ')
         if answer_number == answer:
             print('Correct!')
+            i += 1
+            if i == 3:
+                print(f'Congratulations, {name}!')
         else:
             print(f"'{answer_number}' is wrong answer ;(. Correct answer was '{answer}'\nLet's try again, {name}!")
             break
-        i += 1
+
 def main():
     even_or_odd()
 
