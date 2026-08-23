@@ -17,6 +17,7 @@ def run_calc():
         result = number1 * number2
     return f"{number1} {expression} {number2}", str(result)
 
+
 def main():
     run_game(run_calc, 'What is the result of the expression?')
 

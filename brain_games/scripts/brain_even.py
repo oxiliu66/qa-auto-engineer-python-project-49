@@ -12,7 +12,8 @@ def even_or_odd():
 
 
 def main():
-    run_game(even_or_odd, 'Answer "yes" if the number is even, otherwise answer "no".')
+    run_game(even_or_odd, 'Answer "yes" if the number is '
+                          'even, otherwise answer "no".')
 
 
 if __name__ == "__main__":
