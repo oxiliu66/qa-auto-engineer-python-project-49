@@ -1,10 +1,10 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Hexlet project"
 readme = "README.md"
 authors = [
-    { name = "oxiliu", email = "145711412+oxiliu@users.noreply.github.com" }
+    { name = "Nikolaev Grigorii", email = "145711412+oxiliu@users.noreply.github.com" }
 ]
 requires-python = ">=3.11"
 dependencies = [
