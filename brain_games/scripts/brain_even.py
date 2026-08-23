@@ -1,36 +1,18 @@
 import random
 
-import prompt
-
-from . import brain_games
+from brain_games.scripts.basics import run_game
 
 
 def even_or_odd():
-    name = brain_games.greet()
-    i = 0
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    while i < 3:
-        answer = ''
-        rundom_num = random.randint(1, 100)
-        if rundom_num % 2 == 0:
-            answer += 'yes'
-        else:
-            answer += 'no'
-        print('Question: ' + str(rundom_num))
-        answer_number = prompt.string('Your answer: ')
-        if answer_number == answer:
-            print('Correct!')
-            i += 1
-            if i == 3:
-                print(f'Congratulations, {name}!')
-        else:
-            print(f"'{answer_number}' is wrong answer ;(. Correct "
-                  f"answer was '{answer}'\nLet's try again, {name}!")
-            break
+    num = random.randint(1, 100)
+    if num % 2 == 0:
+        return str(num), 'yes'
+    else:
+        return str(num), 'no'
 
 
 def main():
-    even_or_odd()
+    run_game(even_or_odd, 'Answer "yes" if the number is even, otherwise answer "no".')
 
 
 if __name__ == "__main__":
