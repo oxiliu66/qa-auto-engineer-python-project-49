@@ -3,7 +3,7 @@
 
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oxiliu66_qa-auto-engineer-python-project-49)
 
-Для начала работы с игрой выполнить команды:
+Для начала работы с игрой выполнить команды:\n
 Make build
 Make package-install
 
