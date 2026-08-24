@@ -1,5 +1,6 @@
 import random
 
+
 def prime():
     answer = ''
     number = random.randint(1, 4000)

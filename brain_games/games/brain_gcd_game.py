@@ -1,5 +1,6 @@
 import random
 
+
 def find_nod(a, b):
     while b != 0:
         a, b = b, a % b

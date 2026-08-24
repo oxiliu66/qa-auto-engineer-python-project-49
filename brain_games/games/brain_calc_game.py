@@ -1,5 +1,6 @@
 import random
 
+
 def run_calc():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)

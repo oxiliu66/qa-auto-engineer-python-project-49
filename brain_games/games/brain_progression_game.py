@@ -1,5 +1,6 @@
 import random
 
+
 def progression_calc():
     start = random.randint(1, 100)
     step = random.randint(1, 10)
