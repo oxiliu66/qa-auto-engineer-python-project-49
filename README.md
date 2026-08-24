@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/oxiliu66/qa-auto-engineer-python-project-49/actions)
 
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oxiliu66_qa-auto-engineer-python-project-49)
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=oxiliu66_qa-auto-engineer-python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oxiliu66_qa-auto-engineer-python-project-49)
 
 Для начала работы с игрой выполнить команды:
 
