@@ -10,6 +10,7 @@ Make build
 Make package-install
 
 
+
 На выбор представлены 5 игр:
 
 BRAIN-EVEN - проверка на четность
@@ -21,6 +22,9 @@ BRAIN-GCD - нахождение наибольшего общего делит�
 BRAIN-PROGRESSION - нахождение пропущенного элемента арифметической прогрессии
 
 BRAIN-PRIME - проверка является ли число простым или составным
+
+
+Ниже приведены примеры работы с каждой из игр.
 
 BRAIN-EVEN:
 [![asciicast](https://asciinema.org/a/PyHVlyFSqqGBjJHW.svg)](https://asciinema.org/a/PyHVlyFSqqGBjJHW)
