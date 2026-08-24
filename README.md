@@ -4,10 +4,12 @@
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oxiliu66_qa-auto-engineer-python-project-49)
 
 Для начала работы с игрой выполнить команды:
+
 Make build
 Make package-install
 
 На выбор представлены 5 игр:
+
 BRAIN-EVEN - проверка на четность
 BRAIN-CALC - проверка на правильность вычислений
 BRAIN-GCD - нахождение наибольшего общего делителя 
