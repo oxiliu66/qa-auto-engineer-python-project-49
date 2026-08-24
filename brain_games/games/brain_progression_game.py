@@ -1,8 +1,5 @@
 import random
 
-from brain_games.scripts.basics import run_game
-
-
 def progression_calc():
     start = random.randint(1, 100)
     step = random.randint(1, 10)
@@ -18,10 +15,4 @@ def progression_calc():
     return question, correct_answer
 
 
-def main():
-    run_game(progression_calc, 'What number is missing in the progression?')
-
-
-if __name__ == '__main__':
-    main()
 
