@@ -5,12 +5,12 @@ def prime():
     number = random.randint(1, 4000)
     if number <= 1:
         answer = 'no'
-    if number == 2:
+    elif number <= 3:
         answer = 'yes'
     for i in range(2, int(number**0.5) + 1):
         if number % i == 0:
-            answer = 'yes'
-        else:
             answer = 'no'
+            break
+        else:
+            answer = 'yes'
     return f'{number}', answer
-
